@@ -12,6 +12,7 @@ composeBom = "2026.05.01"
 navigationVersion = "2.9.8"
 kotlinSerializationVersion = "2.3.21"
 kotlinxSerializationJsonVersion = "1.11.0"
+materialIcons = "1.7.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,6 +36,7 @@ runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-comp
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationVersion" }
 navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "navigationVersion" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJsonVersion" }
+androidx-compose-material-icons = { group = "androidx.compose.material", name = "material-icons-core-android", version.ref = "materialIcons" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
