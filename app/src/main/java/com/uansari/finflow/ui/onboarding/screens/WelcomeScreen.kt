@@ -61,7 +61,7 @@ fun WelcomeScreen(onGetStarted: () -> Unit) {
                             imageVector = Icons.Rounded.Star,
                             contentDescription = "Icon for Welcome Screen",
                             tint = MaterialTheme.colorScheme.surfaceTint,
-                            modifier = Modifier.fillMaxSize().padding(12.dp)
+                            modifier = Modifier.fillMaxSize(.8f)
                         )
                     }
                 }

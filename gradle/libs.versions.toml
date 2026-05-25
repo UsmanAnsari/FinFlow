@@ -36,7 +36,7 @@ runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-comp
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationVersion" }
 navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "navigationVersion" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJsonVersion" }
-androidx-compose-material-icons = { group = "androidx.compose.material", name = "material-icons-core-android", version.ref = "materialIcons" }
+androidx-compose-material-icons = { group = "androidx.compose.material", name = "material-icons-extended-android", version.ref = "materialIcons" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

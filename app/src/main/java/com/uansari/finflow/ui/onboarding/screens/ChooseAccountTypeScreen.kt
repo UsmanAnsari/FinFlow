@@ -33,8 +33,7 @@ private val accountTypes = listOf(
 
 @Composable
 fun ChooseAccountTypeScreen(
-    selectedType: String,
-    onAccountTypeSelected: (String) -> Unit
+    selectedType: String, onAccountTypeSelected: (String) -> Unit
 ) {
     var localSelected by remember { mutableStateOf(selectedType) }
 
@@ -50,14 +49,11 @@ fun ChooseAccountTypeScreen(
                         onClick = { localSelected = type },
                         modifier = Modifier.fillMaxWidth(),
                         border = if (isSelected) BorderStroke(
-                            2.dp,
-                            MaterialTheme.colorScheme.primary
+                            2.dp, MaterialTheme.colorScheme.primary
                         ) else null,
                         colors = CardDefaults.cardColors(
-                            containerColor = if (isSelected)
-                                MaterialTheme.colorScheme.primaryContainer
-                            else
-                                MaterialTheme.colorScheme.surfaceVariant
+                            containerColor = if (isSelected) MaterialTheme.colorScheme.primaryContainer
+                            else MaterialTheme.colorScheme.surfaceVariant
                         )
                     ) {
                         Row(
@@ -99,6 +95,5 @@ fun ChooseAccountTypeScreen(
             ) {
                 Text("Continue")
             }
-        }
-    )
+        })
 }
