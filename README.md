@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏦 FinFlow
+# FinFlow
 
 <p align="center">
 <img src="app/src/main/ic_launcher-playstore.png" alt="FinFlow Logo" width="25%" height="25%"/>
@@ -34,10 +34,13 @@ FinFlow is a multi-step onboarding wizard for a fintech app. A user opens the ap
 
 <div align="center">
 
-| Welcome | Choose Account | Personal Details | ID Verification | Success | Dashboard |
-|:-------:|:--------------:|:----------------:|:---------------:|:-------:|:---------:|
-| ![Welcome](screenshots/Welcome.png) | ![AccountType](screenshots/ChooseAccountType.png) | ![PersonalDetails](screenshots/PersonalDetails.png) | ![IDVerification](screenshots/IdVerification.png) | ![Success](screenshots/Success.png) | ![Dashboard](screenshots/Dashboard.png) |
+| Welcome | Choose Account | Personal Details |
+|:-------:|:--------------:|:----------------:|
+| ![Welcome](screenshots/Welcome.png) | ![AccountType](screenshots/ChooseAccountType.png) | ![PersonalDetails](screenshots/PersonalDetails.png) | 
 
+ | ID Verification | Success | Dashboard |
+ |:---------------:|:-------:|:---------:|
+ | ![IDVerification](screenshots/IdVerification.png) | ![Success](screenshots/Success.png) | ![Dashboard](screenshots/Dashboard.png) |
 </div>
 
 ---
